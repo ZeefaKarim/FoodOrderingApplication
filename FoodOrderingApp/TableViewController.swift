@@ -12,10 +12,9 @@ class TableViewController: UITableViewCell {
 
     @IBOutlet weak var menuName: UILabel!
     
-    @IBOutlet weak var viewCell: UIView!
-    
     @IBOutlet weak var menuPrice: UILabel!
     
+    //@IBOutlet weak var image: UIImageView!
     
-    
+    //@IBOutlet weak var uiImageView: UIImageView!
 }
