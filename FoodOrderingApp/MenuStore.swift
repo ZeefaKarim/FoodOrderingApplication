@@ -12,7 +12,7 @@ class MenuStore{
     var menuItems=[MenuItem]()
     
     @discardableResult func createItem(count:Int)->MenuItem {
-        print("In create item")
+        print("In create ")
         let newItem = MenuItem(count:count)
         menuItems.append(newItem)
         print(newItem.foodName)
